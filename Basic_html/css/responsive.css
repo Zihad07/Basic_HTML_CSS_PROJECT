@@ -1,5 +1,16 @@
 
 
+
+@media screen and (max-width:355px){
+    nav ul li {
+        display: block;
+        border-bottom: 1px solid white;
+        padding: 10px 0 
+    }
+
+   }
+   
+
 @media screen and (min-width:400px){
    /***************************
     TWO COLUMN LAYOUT
@@ -60,14 +71,14 @@
         font-size: 1.125em;
         margin-right: 5%;
         text-align: right;
-        width: 45%;
+        width: 55%;
       }
 
       #logo {
         float: left;
         margin-left: 5%;
         text-align: left;
-        width: 45%;
+        width: 35%;
       }
 
       h1 {font-size: 2.5em}
